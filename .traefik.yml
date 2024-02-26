@@ -1,0 +1,20 @@
+# The name of your plugin as displayed in the Plugins Catalog web UI.
+displayName: reponse-timing
+
+# For now, `middleware` is the only type available.
+type: middleware
+
+# The import path of your plugin.
+import: github.com/swarnimarun/responsetiming
+
+# A brief description of what your plugin is doing.
+summary: Timing response for a specific request to response header
+
+# optional
+iconPath: .assets/icon.png
+
+# Configuration data for your plugin.
+# This is mandatory,
+# and Plugins Catalog will try to execute the plugin with the data you provide as part of its startup validity tests.
+testData:
+  TimingHeaderName: X-Time-Taken
