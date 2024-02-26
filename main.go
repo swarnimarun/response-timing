@@ -1,4 +1,4 @@
-package reponsetiming
+package responsetiming
 
 import (
 	"context"
